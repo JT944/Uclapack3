@@ -9,7 +9,7 @@
 #'
 #' @examples sports(api1="q-f2lLVGZkys5AVkVPWsuQ",api_key1 =  "tLcN4rX8BzXZTSE5fYKHntHgSbjHilyGQV8VoXq0zGgiwP7RM8rS0PCOuRyRpn6UkMsEE9gnXWqEs2V32IreXfwVjao7iiAgKeJQ85u2n_mbuZn3-Tuq3R7qs4CPX3Yx",i="San Jose,CA")
 
-
+library(httr)
 sports=function(api1,api_key1,i){
   client_id <- api1
   client_secret <- api_key1

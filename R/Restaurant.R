@@ -9,7 +9,7 @@
 #' @usage Resturant(api1="your client id ",api_key1= "your client_secret",i="City,State")
 #'
 #' @examples Resturant(api1="q-f2lLVGZkys5AVkVPWsuQ",api_key1 =  "tLcN4rX8BzXZTSE5fYKHntHgSbjHilyGQV8VoXq0zGgiwP7RM8rS0PCOuRyRpn6UkMsEE9gnXWqEs2V32IreXfwVjao7iiAgKeJQ85u2n_mbuZn3-Tuq3R7qs4CPX3Yx",i="Irvine,CA")
-
+library(httr)
 Resturant=function(api1,api_key1,i){
 client_id <- api1
 client_secret <- api_key1
